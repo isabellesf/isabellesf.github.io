@@ -1,0 +1,144 @@
+:root {
+    /* --color-blue : #336699; */
+    --color-pink : #dc143c;
+    --color-white: white;
+    --color-grey: rgb(151, 142, 142);
+    --color-dark-grey: #5c6671;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+body {
+    font-family: var(--font-primary);
+    
+ 
+    /* background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%); */
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(105, 23, 37) 98.8%);
+    /* background-color: black; */
+    /* background:linear-gradient(to right, #040404, #000000, #656565); */
+    /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
+    
+/* background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(48, 46, 46) 90.2%); */
+
+
+
+
+.text-white { color: var(--color-white);}
+.text-pink { color: var(--color-pink);}
+.text-grey { color: var(--color-grey);}
+}
+
+
+.logo {
+    color: var(--color-grey);
+}
+
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+    color: var(--color-pink);
+    border: 1px solid var(--color-pink);
+}   
+
+.nav-link {
+    color: var(--color-grey);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+
+.nav-link:hover, .logo:hover {
+    color: var(--color-pink);
+}
+
+.plataforma {
+    min-height: 50vh;
+    background-color: var(--color-pink);
+}
+
+
+.h1{
+    font-weight:bold;
+}
+
+.picture img {
+    width: 90%;
+    height: 80%;
+    border-radius: 7px;
+    margin-left: 25px;
+}
+
+.picture-1 img {
+    width: 90%;
+    height: 80%;
+    border-radius: 7px;
+}
+
+.video{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.text-1 {
+    text-align: justify;
+}
+
+.img-carousel{
+    width: 95%;
+    height: 400px;
+}
+
+.nav-logo{
+    color: var(--color-grey);
+}
+
+.accordion{
+    --bs-accordion-bg: var(--color-white);
+    --bs-accordion-border-color: black;
+    --bs-accordion-btn-bg: var(--color-pink);
+}
+
+.title-accordion{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.img-card{
+    height: 300px;
+}
+
+.card-size{
+    height: 100%;
+    text-align: justify;
+}
+
+
+.card-title{
+    text-align: center;
+    font-weight: 500;
+}
+
+.form-control{
+    background: rgba(0,0,0,0.5);
+    border: #dc143c;
+}
